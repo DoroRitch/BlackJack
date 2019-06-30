@@ -119,7 +119,7 @@ public class BlackJack_main {
 		System.out.println("ディーラーの得点は"+cardPoints_dealer+"点です");
 
 		//ディーラーの行動
-		while(cardPoints_dealer<15 || cardPoints_dealer<=cardPoints) {
+		while(cardPoints_dealer<17) {
 			handCard_dealer.add(bills.get(0));
 			System.out.println("ディーラーの引いたカードは["+handCard_dealer.get(handCard_dealer.size()-1)+"]です");
 			cardPoints_dealer+=points.get(handCard_dealer.get(handCard_dealer.size()-1));
